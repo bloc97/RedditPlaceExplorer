@@ -4,7 +4,7 @@
 ![Screenshot](resources/Screenshot.png?raw=true)
 
 Features:
- - Offline dataset for 2017 and 2022 (about 700MiB compressed, 1GiB uncompressed, 20 GiB less than the original .csv)
+ - Offline dataset for 2017 and 2022 (about 700MiB compressed, 1GiB uncompressed, 20 GiB less than the original .csv files)
  - Lossless compression (and much smaller than raw video files)
  - Accurate simulation of the canvas as it was displayed originally
  - Rewinding and backwards simulation of the canvas
