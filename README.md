@@ -12,6 +12,12 @@ Features:
  - Dataset pre-caching/snapshotting for instantaneous skips in time
  - No internet connection needed after initial download
 
+TODO: (in the future?)
+ - Explain how the dataset and caching works
+ - Add user hashes to the binary dataset
+ - Add find functionnality in program for finding specific events
+ - Add other data such as heatmap
+
 The x64 binaries download for windows with both 2017 and 2020 datasets is around 750MiB. After cache/snapshot generation the total program size grows to approximately 2.6GiB. The cache allows for instantaneous jumps and large seeks. To prevent the cache from generating, simply delete the `/cache/` folder before running the program, but be aware that you will lose the ability to seek large timesteps without lag.
 The download with .jar and dataset alone (without JRE) is around 640MiB.
 
