@@ -54,7 +54,6 @@ V: jump to cursor
 Ctrl+0-9: save camera preset
 Shift+0-9: save time preset
 Alt+0-9: delete preset
-
 ```
 
 ## Building
