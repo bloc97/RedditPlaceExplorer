@@ -12,6 +12,9 @@ Features:
  - Dataset pre-caching/snapshotting for instantaneous skips in time
  - No internet connection needed after initial download
 
+Known Issues:
+ - Pixel simulation has a bug currently, some pixels are not being updated properly, a fix is on the way...
+
 TODO: (in the future?)
  - Explain how the dataset and caching works
  - Add user hashes to the binary dataset
