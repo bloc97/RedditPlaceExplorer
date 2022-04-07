@@ -4,15 +4,18 @@
 ![Screenshot](resources/Screenshot.png?raw=true)
 
 Features:
- - Offline dataset (about ~1GiB, 19 GiB less than the original .csv, no internet connection needed after initial download)
+ - Offline dataset (about 700MiB compressed, 1GiB uncompressed, 19 GiB less than the original .csv)
  - Lossless compression (and much smaller than raw video files)
  - Accurate simulation of the canvas as it was displayed originally
  - Rewinding and backwards simulation of the canvas
  - Fast and efficient seeking
  - Dataset pre-caching/snapshotting for instantaneous skips in time
+ - No internet connection needed after initial download
 
-The x64 binaries download for windows with both 2017 and 2020 datasets is around 1GiB. After cache/snapshot generation the total program size grows to approximately 2.6GiB. The cache allows for instantaneous jumps and large seeks. To prevent the cache from generating, simply delete the `/cache/` folder before running the program, but be aware that you will lose the ability to seek large timesteps without lag.
-The download with .jar and dataset alone (without JRE) is around 800MiB.
+The x64 binaries download for windows with both 2017 and 2020 datasets is around 750MiB. After cache/snapshot generation the total program size grows to approximately 2.6GiB. The cache allows for instantaneous jumps and large seeks. To prevent the cache from generating, simply delete the `/cache/` folder before running the program, but be aware that you will lose the ability to seek large timesteps without lag.
+The download with .jar and dataset alone (without JRE) is around 640MiB.
+
+When running the program for the first time the cache will be generated at launch. It might take one minute or more for older systems. On newer systems with SSDs it should only take a few seconds. This cache only needs to be generated once, subsequent launches will not generate cache. If the cache gets corrupted because of a power interruption, simply delete the files inside the `/cache/` folder. Do not delete the folder itself if you still want to use the cache.
 
 The program requires around of 200MB of RAM during my testing, and it should run fine on older systems.
 
