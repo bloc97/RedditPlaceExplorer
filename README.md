@@ -15,7 +15,7 @@ Features:
 TODO: (in the future?)
  - Explain how the dataset and caching works
  - Add user hashes to the binary dataset
- - Add find functionnality in program for finding specific events
+ - Add find functionality in program for finding specific events
  - Add other data such as heatmap
 
 The x64 binaries download for windows with both 2017 and 2020 datasets is around 750MiB. After cache/snapshot generation the total program size grows to approximately 2.6GiB. The cache allows for instantaneous jumps and large seeks. To prevent the cache from generating, simply delete the `/cache/` folder before running the program, but be aware that you will lose the ability to seek large timesteps without lag.
