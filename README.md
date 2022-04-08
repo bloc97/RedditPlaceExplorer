@@ -19,6 +19,7 @@ Known Issues:
  - Upon further analysis it might also be some pixels missing in the dataset or pixels that are in the dataset but did not get updated to the canvas.
 
 TODO: (in the future?)
+ - Synchronising the offcial reddit dataset with unofficial canvas snapshots can fix the problem, though the result won't be 100% accurate compared to the real event due to timing discrepancies.
  - Explain how the dataset and caching works
  - Add user hashes to the binary dataset
  - Add find functionality in program for finding specific events
