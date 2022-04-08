@@ -15,7 +15,8 @@ Features:
 Known Issues:
  - Pixel simulation has a bug currently, some pixels are not being updated properly, a fix is on the way...
  - Fix added for 2017 dataset (preprocessing error)
- - Fix for 2022 unavailable until reddit publishes a fix for their .csv. In short pixels that have the same timestamp might not be ordered correctly, resulting in slight divergences in the simulation compared to the actual canvas.
+ - Fix for 2022 unavailable until reddit publishes a fix for their .csv. ~~In short pixels that have the same timestamp might not be ordered correctly, resulting in slight divergences in the simulation compared to the actual canvas.~~
+ - Upon further analysis it might also be some pixels missing in the dataset or pixels that are in the dataset but did not get updated to the canvas.
 
 TODO: (in the future?)
  - Explain how the dataset and caching works
